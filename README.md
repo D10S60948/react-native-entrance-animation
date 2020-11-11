@@ -8,7 +8,7 @@
 
 <br/><br/>
 ## Usage
-#### Examples - Demo
+#### Examples
 
 <!-- <div style="display:flex;flex-direction:row">
   <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1600198194/demo_tzty07.gif" height="500" width="280" />
@@ -18,8 +18,6 @@
   <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1595960302/image2_eqbpiw.png" style="height:100%;width:100%"/>
   <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1595960364/image_daoab0.png" style="height:100%;width:100%"/>
 </div> -->
-
-#### Examples - code (reflects the short video above)
 
 ```javascript
 import { AnimateMany } from 'react-native-entrance-animation';
@@ -35,6 +33,80 @@ import { AnimateMany } from 'react-native-entrance-animation';
                <View style={styles.itemContainer}><Text style={{ color: 'white' }}>item 6</Text></View >
           </AnimateMany >
      );
+```
+```javascript
+const styles = StyleSheet.create({
+     container: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          padding: 10
+     },
+     itemContainer: {
+          height: 40,
+          width: '45%',
+          backgroundColor: 'steelblue',
+          justifyContent: 'center',
+          alignItems: 'center'
+     }
+})
+```
+
+```javascript
+import { Animate } from 'react-native-entrance-animation';
+```
+```javascript
+return (
+          <View style={styles.container}>
+               <Animate top
+                    containerStyle={styles.itemContainer}
+               >
+                    <Text style={{ color: 'white' }}>item 1</Text>
+               </Animate>
+               <Animate left
+                    containerStyle={styles.itemContainer}
+               >
+                    <Text style={{ color: 'white' }}>item 2</Text>
+               </Animate>
+               <Animate right
+                    containerStyle={styles.itemContainer}
+               >
+                    <Text style={{ color: 'white' }}>item 3</Text>
+               </Animate>
+               <Animate bottom
+                    containerStyle={styles.itemContainer}
+               >
+                    <Text style={{ color: 'white' }}>item 4</Text>
+               </Animate>
+               <Animate fade delay={500}
+                    containerStyle={styles.itemContainer}
+               >
+                    <Text style={{ color: 'white' }}>item 5</Text>
+               </Animate>
+               <Animate zoom delay={1000}
+                    containerStyle={styles.itemContainer}
+               >
+                    <Text style={{ color: 'white' }}>item 6</Text>
+               </Animate>
+          </View >
+     );
+```
+```javascript
+const styles = StyleSheet.create({
+     container: {
+          flex: 1,
+          justifyContent: 'space-evenly',
+          alignItems: 'center',
+          padding: 10
+     },
+     itemContainer: {
+          height: 40,
+          width: '45%',
+          backgroundColor: 'steelblue',
+          justifyContent: 'center',
+          alignItems: 'center'
+     }
+})
 ```
 
 <br/>
