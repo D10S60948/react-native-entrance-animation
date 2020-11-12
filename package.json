@@ -4,7 +4,7 @@
      "description": "Simple entrance animation for React-Native components",
      "license": "MIT",
      "homepage": "https://github.com/D10S60948/react-native-entrance-animation#readme",
-     "version": "1.0.0",
+     "version": "1.0.1",
      "types": "./src/App",
      "peerDependencies": {
           "expo": "~39.0.2",

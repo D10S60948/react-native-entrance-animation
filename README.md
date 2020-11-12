@@ -10,15 +10,6 @@
 ## Usage
 #### Examples
 
-<!-- <div style="display:flex;flex-direction:row">
-  <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1600198194/demo_tzty07.gif" height="500" width="280" />
-</div>
-<br/>
-<div style="display:flex;flex-direction:row">
-  <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1595960302/image2_eqbpiw.png" style="height:100%;width:100%"/>
-  <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1595960364/image_daoab0.png" style="height:100%;width:100%"/>
-</div> -->
-
 <div>
   <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1605209433/entrance-multi-animation_aabhsg.gif" height="500" width="280" />
 </div>
