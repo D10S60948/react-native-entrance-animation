@@ -19,6 +19,10 @@
   <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1595960364/image_daoab0.png" style="height:100%;width:100%"/>
 </div> -->
 
+<div>
+  <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1605209433/entrance-multi-animation_aabhsg.gif" height="500" width="280" />
+</div>
+
 ```javascript
 import { AnimateMany } from 'react-native-entrance-animation';
 ```
@@ -51,6 +55,11 @@ const styles = StyleSheet.create({
      }
 })
 ```
+<br/>
+
+<div>
+  <img src="https://res.cloudinary.com/dexts7jfo/image/upload/v1605209434/entrance-animation_zvdclv.gif" height="500" width="280" />
+</div>
 
 ```javascript
 import { Animate } from 'react-native-entrance-animation';
